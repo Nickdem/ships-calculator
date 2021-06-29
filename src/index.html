@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ships-Calculator</title>
+  <link rel="icon" href="favicon.ico" type="image/ico">
+</head>
+
+<body>
+  <main>
+    <section class="all-ships">
+      <section class="all-ships__filter filter">
+        <input class="filter__input" type="text" placeholder="Корабль...">
+        <select class="filter__select" name="ship-nation" id="nation">
+          <option class="filter__option" value="all-nations" selected>Нация</option>
+        </select>
+        <select class="filter__select" name="ship-class" id="type">
+          <option class="filter__option" value="all-types" selected>Класс</option>
+        </select>
+        <select class="filter__select" name="ship-lvl" id="level">
+          <option class="filter__option" value="all-levels" selected>Уровень</option>
+        </select>
+      </section>
+      <section class="ships">
+
+      </section>
+    </section>
+
+    <section class="calculatored">
+      <h3 class="calculatored__title">Выбор:</h3>
+      <div class="calculatored__ships"></div>
+      <p class="calculatored__sum">сумма: <b id="sum">0</b></p>
+    </section>
+  </main>
+  <div class="helper"></div>
+
+</body>
+
+</html>
